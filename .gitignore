@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+demo.txt
+score.json
+cases.jsonl
+base.jsonl
+cand.jsonl
+broken.jsonl
