@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-eval"
+version = "0.1.0"
+description = "Measure retrieval quality instead of guessing: recall, precision, MRR, nDCG, plus per-query regression detection."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "khawajasafiullah18" }]
+dependencies = []
+
+[project.scripts]
+rag-eval = "rageval.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["rageval*"]
